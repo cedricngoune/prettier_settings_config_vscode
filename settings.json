@@ -1,0 +1,41 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "wallaby.startAutomatically": false,
+  "yaml.schemas": {
+    "file:///Users/cedric_ngoune/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "542e6cb3-203a-40fc-97a3-e92198b4aca9",
+      "enabled": true,
+      "name": "My testwe Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "9e498152-588b-4368-bb37-296ed74357fe",
+      "monitor": true
+    }
+  ],
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "git.autofetch": true,
+  "workbench.editorAssociations": {
+    "*.csv": "default"
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true
+}
